@@ -61,9 +61,9 @@ function draw(){
 }
 
 function play(){
-    song.play();
-    song.setVolume(1);
-    song.rate(1)
+    song1.play();
+    song1.setVolume(1);
+    song1.rate(1)
 }
 function modelLoaded(){
     console.log('PoseNet Is Initialized');
